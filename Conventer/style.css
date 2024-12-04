@@ -1,0 +1,77 @@
+/* Reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#secondaryContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 900px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+#leftSide, #rightSide {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input:focus, select:focus {
+    border-color: #333;
+}
+
+#buttonContainer {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

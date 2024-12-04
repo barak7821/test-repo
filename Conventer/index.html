@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="secondaryContainer">
+            <div id="leftSide">
+                <h1>Amount</h1>
+                <input id="number" type="number" placeholder="Amount of Shekels">
+            </div>
+            <div id="rightSide">
+                <h1>Currency</h1>
+                <select name="selectCurrency" id="selectCurrency">
+                    <option value="default">Select Currency</option>
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="gpt">GPT</option>
+                </select>
+            </div>
+        </div>
+        <div id="buttonContainer">
+            <button id="convertButton" onclick="convertCurrency()">Convert</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
